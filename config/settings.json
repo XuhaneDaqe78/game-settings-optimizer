@@ -1,0 +1,23 @@
+{
+  "module": "game-settings-optimizer",
+  "version": "0.1.0",
+  "runtime": {
+    "threads": 4,
+    "verbose": false,
+    "hot_reload": true
+  },
+  "modules": {
+    "benchmark": {
+      "enabled": true
+    },
+    "suggest": {
+      "enabled": true
+    },
+    "apply": {
+      "enabled": true
+    },
+    "cli": {
+      "enabled": true
+    }
+  }
+}
